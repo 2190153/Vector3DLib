@@ -8,39 +8,39 @@ namespace VECTOR3D_DLL
 {
     public class Vector3D
     {
-        private double x;
-        private double y;
-        private double z;
+        private double _i;
+        private double _j;
+        private double _k;
 
-        public double X
+        public double i
         {
-            get { return x; }
-            set { x = value; }
+            get { return _i; }
+            set { _i = value; }
         }
 
-        public double Y
+        public double j
         {
-            get { return y; }
-            set { y = value; }
+            get { return _j; }
+            set { _j = value; }
         }
 
-        public double Z
+        public double k
         {
-            get { return z; }
-            set { z = value; }
+            get { return _k; }
+            set { _k = value; }
         }
 
-        public Vector3D(double x, double y, double z)
+        public Vector3D(double i, double j, double k)
         {
-            X = x;
-            Y = y;
-            Z = z;
+            _i = i;
+            _j = j;
+            _k = k;
         }
         public Vector3D()
         {
-            X=0;
-            Y=0;
-            Z=0;
+            _i=0;
+            _j=0;
+            _k=0;
                 
         }
 
@@ -64,19 +64,69 @@ namespace VECTOR3D_DLL
                 X * other.Y - Y * other.X);
         }*/
 
-        public static Vector3D operator+(Vector3D op1, Vector3D op2, Vector3D op3)
+        public static Vector3D operator+(Vector3D op1, Vector3D op2)
         {
             Vector3D temp = new Vector3D();
-            {
-                temp.X = op1.X + op2.X + op3.X;
-                temp.Y = op1.Y + op2.Y + op3.Y;
-                temp.Z = op1.Z + op2.Z + op3.Z;
-                return temp;
-            }
+            
+            temp._i = op1._i + op2._i;
+            temp._j = op1._j + op2._j;
+            temp._k = op1._k + op2._k;
+            return temp;
+            
+        }
+
+        public static Vector3D operator -(Vector3D op1, Vector3D op2)
+        {
+            Vector3D temp = new Vector3D();
+
+            temp._i = op1._i - op2._i;
+            temp._j = op1._j - op2._j;
+            temp._k = op1._k - op2._k;
+            return temp;
+
+        }
+
+        public static Vector3D operator *(Vector3D op1, Vector3D op2)
+        {
+            Vector3D temp = new Vector3D();
+
+            temp._i = (op1._j * op2._k) - (op2._j * op1._k);
+            temp._j = (op1._i * op2._k) - (op2._i * op1._k);
+            temp._k = (op1._i * op2._j) - (op2._j * op1._i);
+            return temp;
+
+        }
+
+        public static double operator %(Vector3D op1, Vector3D op2)
+        {
+         
+            return (op1._i * op2._i)+ (op1._j * op2._j)+ (op1._k * op2._k); 
+
         }
         public override string ToString()
         {
-            return $"({X}, {Y}, {Z})";
+            string temp = "";
+
+            if (_i!= 0)
+            {
+                if (_i > 0)
+                {
+                    temp += _i.ToString();
+                }
+            }
+
+
+            if (_j != 0)
+            {
+                if (_j > 0)
+                {
+                    temp += _j.ToString();
+                }
+
+            }
+
+
+            return $"({_i}, {_j}, {_k})";
         }
 
 
