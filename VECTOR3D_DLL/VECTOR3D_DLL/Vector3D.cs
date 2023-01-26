@@ -41,28 +41,27 @@ namespace VECTOR3D_DLL
             _i = 0;
             _j = 0;
             _k = 0;
-
         }
 
-        /*   public _3DVector Add(_3DVector other)
+           public Vector3D Add(Vector3D other)
            {
-               return new _3DVector(X + other.X, Y + other.Y, Z + other.Z);
+               return new Vector3D(_i + other._i, _j + other._j, _k + other._k);
            }
-           public _3DVector Sub(_3DVector other)
+           public Vector3D Sub(Vector3D other)
            {
-               return new _3DVector(X - other.X, Y - other.Y, Z - other.Z);
+               return new Vector3D(_i - other._i, _j - other._j, _k - other._k);
            }
-           public double DotProduct(_3DVector other)
+           public double DotProduct(Vector3D other)
            {
-               return X * other.X + Y * other.Y + Z * other.Z;
+               return _i * other._i + _j * other._j + _k * other._k;
            }
-           public _3DVector CrossProduct(_3DVector other)
+           public Vector3D CrossProduct(Vector3D other)
            {
-               return new _3DVector(
-                   Y * other.Z - Z * other.Y,
-                   Z * other.X - X * other.Z,
-                   X * other.Y - Y * other.X);
-           }*/
+               return new Vector3D(
+                   _j * other._k - _k * other._j,
+                   _k * other._i - _i * other._k,
+                   _i * other._j - _j * other._i);
+           }
 
         public static Vector3D operator +(Vector3D op1, Vector3D op2)
         {

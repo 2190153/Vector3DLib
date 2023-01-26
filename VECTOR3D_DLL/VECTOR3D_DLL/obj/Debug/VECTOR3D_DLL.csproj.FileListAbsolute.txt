@@ -10,3 +10,9 @@ C:\Users\PSCAD\Desktop\Vectorlibrary\VECTOR3D_DLL\VECTOR3D_DLL\obj\Debug\VECTOR3
 C:\Users\PSCAD\Desktop\Vectorlibrary\VECTOR3D_DLL\VECTOR3D_DLL\obj\Debug\VECTOR3D_DLL.csproj.CoreCompileInputs.cache
 C:\Users\PSCAD\Desktop\Vectorlibrary\VECTOR3D_DLL\VECTOR3D_DLL\obj\Debug\VECTOR3D_DLL.dll
 C:\Users\PSCAD\Desktop\Vectorlibrary\VECTOR3D_DLL\VECTOR3D_DLL\obj\Debug\VECTOR3D_DLL.pdb
+C:\Users\USER\Desktop\FINAL YEAR HELL YEAH\COURSE\Software Design\Library\VECTOR3D_DLL\VECTOR3D_DLL\bin\Debug\VECTOR3D_DLL.dll
+C:\Users\USER\Desktop\FINAL YEAR HELL YEAH\COURSE\Software Design\Library\VECTOR3D_DLL\VECTOR3D_DLL\bin\Debug\VECTOR3D_DLL.pdb
+C:\Users\USER\Desktop\FINAL YEAR HELL YEAH\COURSE\Software Design\Library\VECTOR3D_DLL\VECTOR3D_DLL\obj\Debug\VECTOR3D_DLL.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\FINAL YEAR HELL YEAH\COURSE\Software Design\Library\VECTOR3D_DLL\VECTOR3D_DLL\obj\Debug\VECTOR3D_DLL.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\FINAL YEAR HELL YEAH\COURSE\Software Design\Library\VECTOR3D_DLL\VECTOR3D_DLL\obj\Debug\VECTOR3D_DLL.dll
+C:\Users\USER\Desktop\FINAL YEAR HELL YEAH\COURSE\Software Design\Library\VECTOR3D_DLL\VECTOR3D_DLL\obj\Debug\VECTOR3D_DLL.pdb
