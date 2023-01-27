@@ -4,9 +4,16 @@ using VECTOR3D_DLL;
 
 namespace VectorTestProject
 {
+    /// <summary>
+    /// class for unit test
+    /// </summary>
     [TestClass]
     public class UnitTest1
     {
+
+        /// <summary>
+        /// test for constructor
+        /// </summary>
         [TestMethod]
         public void TestConstructor1()
         {
@@ -19,6 +26,9 @@ namespace VectorTestProject
             Assert.AreEqual(c.k, 0);
         }
 
+        /// <summary>
+        /// test for tosstring
+        /// </summary>
         [TestMethod]
         public void TostringTest()
         {
@@ -28,6 +38,10 @@ namespace VectorTestProject
 
             Assert.AreEqual(a, "1i-2j+3k");
         }
+
+        /// <summary>
+        /// test for addition
+        /// </summary>
         [TestMethod]
         public void AdditionTest()
         {
@@ -50,6 +64,9 @@ namespace VectorTestProject
             Assert.AreEqual(result1.k, 25);
         }
 
+        /// <summary>
+        /// test for subtraction
+        /// </summary>
         [TestMethod]
         public void SubtractionTest()
         {
