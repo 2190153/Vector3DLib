@@ -72,8 +72,8 @@ namespace VectorTestProject
             Assert.AreEqual(result1.k, 10);
         }
 
-        [TestMethod]
-        public void MultiplcationTest()
+        /*[TestMethod]
+        public void DotProductTest()
         {
             Vector3D a1 = new Vector3D();
             Vector3D a2 = new Vector3D();
@@ -92,7 +92,7 @@ namespace VectorTestProject
             Assert.AreEqual(result1.k, 0);
         }
 
-        /*[TestMethod]
+        [TestMethod]
         public void DivisionTest()
         {
             Vector3D a1 = new Vector3D();

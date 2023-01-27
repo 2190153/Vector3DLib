@@ -85,6 +85,7 @@ namespace VECTOR3D_DLL
 
         }
 
+        //cross
         public static Vector3D operator *(Vector3D op1, Vector3D op2)
         {
             Vector3D temp = new Vector3D();
@@ -96,6 +97,7 @@ namespace VECTOR3D_DLL
 
         }
 
+        //dot
         public static double operator %(Vector3D op1, Vector3D op2)
         {
 
